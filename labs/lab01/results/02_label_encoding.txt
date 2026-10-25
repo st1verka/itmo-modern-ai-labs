@@ -1,0 +1,13 @@
+ПУНКТ 2. КОДИРОВАНИЕ МЕТОК
+
+Соответствие меток:
+black --> 0
+green --> 1
+red --> 2
+white --> 3
+yellow --> 4
+
+Метки: ['green', 'red', 'black']
+Коды: [np.int64(1), np.int64(2), np.int64(0)]
+Коды для декодирования: [3, 0, 4, 1]
+Декодированные метки: [np.str_('white'), np.str_('black'), np.str_('yellow'), np.str_('green')]

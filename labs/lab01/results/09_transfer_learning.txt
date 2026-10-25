@@ -1,0 +1,23 @@
+ПУНКТ 9. КЛАССИФИКАЦИЯ ИЗОБРАЖЕНИЙ С ПРИМЕНЕНИЕМ TRANSFER LEARNING
+
+Датасет: sklearn Digits; классы: 0, 1, 2.
+Обучение: 402 изображений; тест: 135 изображений.
+Архитектура: MobileNetV2 с весами ImageNet.
+
+Feature Extraction (заморожена базовая сеть, обучается fc):
+Эпоха 1: loss=1.0372, train accuracy=47.76%
+Эпоха 2: loss=0.8612, train accuracy=65.67%
+Test Accuracy=79.26%
+Test Precision=80.44%
+Test Recall=79.26%
+
+Fine-tuning (разморожен layer4 и fc; уменьшен learning rate):
+Эпоха 3: loss=0.7921, train accuracy=69.65%
+Эпоха 4: loss=0.7176, train accuracy=76.62%
+Эпоха 5: loss=0.7022, train accuracy=78.11%
+Эпоха 6: loss=0.6671, train accuracy=80.10%
+Эпоха 7: loss=0.6339, train accuracy=81.34%
+Test Accuracy=82.22%
+Test Precision=84.70%
+Test Recall=82.22%
+Изменение Accuracy: +2.96%

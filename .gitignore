@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Temporary and generated files
+tmp_report/
+*.log
+
+# Large downloaded datasets and archives
+labs/*/data/cifar10/
+*.tar.gz
+
+# Local editor settings
+.vscode/

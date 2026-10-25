@@ -1,0 +1,8 @@
+ПУНКТ 4. НАИВНЫЙ БАЙЕСОВСКИЙ КЛАССИФИКАТОР
+
+Accuracy of Naive Bayes classifier = 99.75%
+Accuracy of the new classifier = 100.00%
+Accuracy (CV=3): 99.75%
+Precision (CV=3): 99.76%
+Recall (CV=3): 99.75%
+F1 (CV=3): 99.75%
